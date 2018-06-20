@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+body  {
+  margin: 0;
+  font-family: 'Sunflower', sans-serif;
+  /* changing font size use ems which is a percentage of the font */
+  font-size: 1.25em;
+}
+header {
+  /* how do we make the height specific to devices */
+  min-height:100vh;
+  background-color: white;
+}
+nav {
+  background-color:#2c2e30;
+  position: fixed;
+  width: 100%;
+}
+
+nav a {s
+  color: white;
+  text-decoration: none;
+}
+
+nav li {
+  display: inline-block;
+  padding:  1em;
+  colour: white;
+}
+nav ul {
+  margin:0;
+  colour: white;
+}
+header main {
+  padding-top: 3em;
+  text-align:center;
+  font-size: 1.25em;
+ 
+}
+h1  {
+  /* if you wanted to change case */
+  /* text-transform: uppercase; */
+  font-size:2.0em;
+  letter-spacing: 0.5em;
+  font-family: 'Teko', sans-serif;
+}
+header img{
+  /* padding: 1em; */
+  padding-top: 1em;
+  width: 20%;
+  border-radius: 50%;
+  border: 1px black solid;
+}
+.about-me {
+  padding: 3em 1em;
+  line-height: 1.25;
+  background-color: grey;
+  color: white;
+}
+
+.content {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.projects{
+  color: black;
+  padding: 3em 0;
+  background-color: #0d3d6d;
+  background-image: url("https://img.freepik.com/free-vector/bright-background-with-dots_1055-3132.jpg?size=338&ext=jpg");
+  background-size: cover;
+}
+
+.projects img {
+  width:30%;
+  padding: 30px 30px 30px 0;
+  background-image: url("https://nofilmschool.com/sites/default/files/styles/article_wide/public/smoke_0.png?itok=RXC2pztE")
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 770px) {
+  header img {
+    width: 300px;
+  }
+h2 {
+	background-image: ("https://png.pngtree.com/thumb_back/fw800/back_pic/03/70/94/1157b6fd85f1ff2.jpg");
+}
+p {
+	background-image: url("https://media.istockphoto.com/photos/low-poly-black-background-picture-id595734386?k=6&m=595734386&s=612x612&w=0&h=bGa3M_kVFLZXag5SBSteWwkQrVv-wY7aeo6L_tOQ8kQ=")
+}
+footer {
+background-color: #ccffcc;
+}
